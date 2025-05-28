@@ -1,0 +1,82 @@
+/* Body styling with motivational background */
+body {
+
+
+  
+            background: url("https://www.shutterstock.com/shutterstock/photos/2214813843/display_1500/stock-vector-cute-hand-drawn-planner-journal-notepad-paper-vector-illustration-2214813843.jpg") no-repeat center center fixed;
+            background-size: cover;   
+
+   background-size: cover;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Todo card styling */
+.todo-card {
+    
+   
+    width: 350px;
+    padding: 20px;
+    background: #F5F5F5;
+    /* Semi-transparent white */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* Smooth blur effect */
+}
+
+/* Input and button styling */
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid hsl(209, 90%, 51%);
+    /* Vibrant coral */
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background-color: #0078ff;
+    /* Bright blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff3cd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: #ffe066;
+    /* Soft yellow */ }
